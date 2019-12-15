@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.http import Http404
 
 from rest_framework.views import APIView
@@ -30,7 +29,7 @@ class LanguageList(APIView):
 
 class LanguageDetail(APIView):
     """
-    Retrieve, update or delete a snippet instance
+    Retrieve, update or delete a language instance
     """
 
     def get_object(self, pk):
